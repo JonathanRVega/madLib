@@ -1,20 +1,29 @@
 h1{
   font-family: Helvetica;
-    text-align: center;
-    font-size: 32px;
+  text-align: center;
+  font-size: 5vh;
+  color:  white;
 }
 h2{
   font-family: Helvetica;
-    text-align: center;
-    font-size: 32px;
+  text-align: center;
+  font-size: 4vh;
 }
 .cardElement{
-    width: 65%;
+    width: 85%;
     border: 3px solid #ccc;
     border-radius: 15px;
-    margin: auto;
+    margin-top: 10vh;
     padding: 4px;
     background-color: white;
+}
+.cardElement2{
+  width: 50%;
+  border: 3px solid #ccc;
+  border-radius: 15px;
+  margin-top: 10vh;
+  padding: 4px;
+  background-color: white;
 }
 .cardContent {
     padding: 10px;
@@ -22,16 +31,15 @@ h2{
   .cardText {
     margin:auto;
   }
-  body{
-      background-color:lightcyan;
-  }
+
   button{
-   display: block;   
-    width: 20%;
+    display: block;   
+    width: 90%;
     margin: auto;
+    margin-top: 5vh;
     font-family: Helvetica;
-    font-size: 24px;
-     
+    font-size: 3vh;
+    background-color: indianred;
   }
   input{
     display: block;   
@@ -39,5 +47,27 @@ h2{
   }
   p{
     font-family: Helvetica;
-    font-size: 24px;
+    font-size: 2.5vh;
+    color: black;
+  }
+  .pForm{
+    font-family: Helvetica;
+    font-size: 2.5vh;
+    color: black;
+  }
+  body{
+    background-color: firebrick;
+  }
+  .questionMark{
+    width: 29%;
+    height: 29%;
+    filter: brightness(0)invert(1);
+    
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
   }
