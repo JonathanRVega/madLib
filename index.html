@@ -6,6 +6,7 @@
     <title>The invention</title>
     <a href="https://www.squiglysplayhouse.com/WritingCorner/StoryBuilder/TheInvention.html">The original mad lib</a>
     <link rel="stylesheet" href="styles.css">
+     <script src="app.js"></script>
 </head>
 <body>
 
@@ -17,16 +18,10 @@
         <div class="cardElement">
         <div class="cardContent">
         <div class="cardText">
-            <p style="text-align: justify;">It was a hot day. In fact it was so hot you could have cooked --- on the sidewalk. Squigly sat on his front porch trying to eat his --- before it melted.
-                Just as Squigly was about to go inside, he saw --- coming down the street. --- was skipping so --- that Squigly was sure --- would faint from the heat. When --- reached his front porch, Squigly noticed that --- wasn't even sweating.
+            <div id="answer">
                 
-                "How can you not be hot?" asked Squigly, wiping the sweat from his forehead.
-                
-                "Hot, I'm not hot, I'm wearing my invention" said ---.
-                
-                "What kind of invention is that?" asked Squigly.
-                
-                "Frozen --- of course, I heard it was going to be hot today so I just put my --- in the freezer last night and today I feel great! It really works, you should try it."</p>
+            </div>
+
         </div>
         </div>
         </div>
@@ -36,22 +31,21 @@
         <div class="cardText">
             <h2>Form</h2>
             <p class="pForm">Your name:</p>
-            <input style="font-size:2vh;" type="text" placeholder="Name here" >
+            <input id="input1" style="font-size:2vh;" type="text" placeholder="Name here" >
             <p class="pForm">Your food ending in s:</p>
-            <input style="font-size:2vh;" type="text" placeholder="Food ending in s">
+            <input id="input2" style="font-size:2vh;" type="text" placeholder="Food ending in s">
             <p class="pForm">An article of clothing</p>
-            <input style="font-size:2vh;" type="text" placeholder="Clothing">
+            <input id="input3" style="font-size:2vh;" type="text" placeholder="Clothing">
             <p class="pForm">A speed</p>
-            <input style="font-size:2vh;" type="text" placeholder="Speed">
+            <input id="input4" style="font-size:2vh;" type="text" placeholder="Speed">
             <p class="pForm">A cold food</p>
-            <input style="font-size:2vh;" type="text" placeholder="Cold food">
-            <button>Submit</button>
+            <input id="input5" style="font-size:2vh;" type="text" placeholder="Cold food">
+            <button onclick="createParagraph()">Submit</button>
         </div>
         </div>
         </div>
             <br>
             <br>
 
-    </div>
 </body>
 </html>
